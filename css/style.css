@@ -825,6 +825,11 @@ background: linear-gradient(90deg, rgba(217,217,217,0.23) 0%, rgba(217,217,217,0
     width: 100%;
   }
 
+  .filler_block_top{
+    height: 1000px;
+    width: 100%;
+  }
+
   .filler_container {
     height: 60x;
     color: var(--color-white);
@@ -884,4 +889,18 @@ background: linear-gradient(90deg, rgba(217,217,217,0.23) 0%, rgba(217,217,217,0
 
 .filler_content_left ol{
     padding-left: 20px;
+}
+
+.filler_content_bottom_right{
+    grid-column: 9 / span 6;
+    margin-top: 40px;
+    
+}
+
+.filler_content_bottom_right ul {
+    list-style: none;
+  }
+
+  .filler_content_bottom_right li{
+    padding-bottom: 10px;
 }
