@@ -617,13 +617,12 @@ padding-left: 30px; */
     justify-content: center;
     text-align: right;
     height: 60px;
-    
+    margin-top: 20px;
 }
 
 .footer_box_right_bottom{
     display: flex;
-    align-items: center;
-    
+    justify-content: flex-end;
 }
 
 
