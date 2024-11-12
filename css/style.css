@@ -847,8 +847,7 @@ background: linear-gradient(90deg, rgba(217,217,217,0.23) 0%, rgba(217,217,217,0
 }
 
 .filler_block_right{
-    grid-column: 7 / span 6;
-    text-align: right;
+    grid-column: 9 / span 6;
 }
 
 .filler_content{
@@ -857,13 +856,33 @@ background: linear-gradient(90deg, rgba(217,217,217,0.23) 0%, rgba(217,217,217,0
     color: var(--background-color-light);
     width: var(--width-12col);
     margin: 0 auto;
+    font-size: 14px;
 }
 
 .filler_content_left{
     grid-column: 1 / span 6;
+    margin-top: 40px;
+    line-height: 1.6;
+}
+
+.filler_content_left li{
+    padding-bottom: 20px;
 }
 
 .filler_content_right{
-    grid-column: 7 / span 6;
+    grid-column: 9 / span 6;
+    margin-top: 40px;
 }
 
+.filler_content_right li{
+    padding-bottom: 10px;
+}
+
+.filler_content_right ul{
+    padding-left: 20px;
+}
+
+
+.filler_content_left ol{
+    padding-left: 20px;
+}
