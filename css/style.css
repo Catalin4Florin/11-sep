@@ -214,6 +214,8 @@ background: linear-gradient(180deg, rgba(79,69,244,1) 0%, rgba(0,226,255,1) 100%
     padding: 0 0 20px 0 ;
     width: var(--width-12col);
     margin:70px auto 0;
+    z-index: 1;
+    position:relative;
     text-shadow: 1px 1px 5px var(--primary-color);
 }
 
@@ -406,15 +408,7 @@ div[data-category="beef"] {
 
 
 
-.content_image_box{
-    
-    background-color: var(--color-white);
-    width: 300px;
-    height: 200px;
-  
-    margin-top: 100px;
-    border-radius: 5px;
-}
+
 
 .content_image{
     margin-top: 168px;
@@ -424,22 +418,31 @@ div[data-category="beef"] {
     background-position: center center;
     background-size: cover;
     display: flex;
-   justify-content: center;
+    justify-content: center;
     height: 600px;
+}
+
+.content_image_box{
+    
+    background-color: var(--color-white);
+    width: 350px;
+    height: 200px;
+    margin-top: 100px;
+    border-radius: 5px;
+    padding: 25px;
 }
 
 .content_image_box_top{
     font-size: 16px;
     font-weight: 900;
-    padding-top: 30px ;
-    padding-bottom: 11px;
-    padding-left: 30px;
+    padding-bottom: 10px;
 }
 
 .content_image_box_middle{
     font-size: 22px;
 text-transform: uppercase;
 color: var(--primary-color);
+padding-bottom: 10px;
 /* padding-bottom: 14px;
 padding-left: 30px; */
 }
@@ -447,6 +450,7 @@ padding-left: 30px; */
 .content_image_box_bottom{
     font-size: 16px;
     width: 280px;
+
 /*     padding-left: 30px; */
 }
 
@@ -911,4 +915,12 @@ background: linear-gradient(90deg, rgba(217,217,217,0.23) 0%, rgba(217,217,217,0
 
   .filler_content_bottom_right li{
     padding-bottom: 10px;
+}
+
+
+
+.plating_image {
+    margin-top: -100px;
+    position: relative;
+    z-index: 0;
 }
