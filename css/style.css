@@ -1015,3 +1015,8 @@ background: linear-gradient(90deg, rgba(217,217,217,0.23) 0%, rgba(217,217,217,0
     text-decoration: none; 
     color: var(--color-dark);
   }
+
+  .user_headline{
+    margin: 20px auto 20px auto;
+    border-bottom: solid 1px var(--color-light);
+  }
