@@ -39,6 +39,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    outline:  1px solid red;
 }
 
 .category-seafood{
@@ -1026,4 +1028,57 @@ background: linear-gradient(90deg, rgba(217,217,217,0.23) 0%, rgba(217,217,217,0
 
   .plating_image img{
     width: var(--width-12col);
+  }
+
+  @media (max-width: 600px){
+
+    :root {
+        --width-12col: 100%;
+    }
+
+.todays_recipe{
+    width: auto;
+}
+
+    .todays_recipes_content {
+        grid-template-columns: repeat(1, 1fr);
+        width: auto;
+    }
+    .todays_recipes_content_block{
+        width: auto;
+    }
+
+.categories div{
+    width: auto;
+}
+
+.content_area div{
+    width: auto;
+}
+
+.content_area_content{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footer{
+    width: auto;
+}
+/* .categories_content{
+    width: auto;
+} */
+
+.content_area img{
+    display: none;
+}
+
+.footer_box_right{
+display: none;
+}
+  }
+
+  @media (max-width: 600px) {
+    .recipe_details{
+        width: auto;
+    }
   }
