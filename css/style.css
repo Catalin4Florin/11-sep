@@ -48,7 +48,8 @@
 }
 
 body{
-    background-color: #dddddd;
+    /* background-color: #dddddd; */
+    background-color: var(--background-color-dark-bg);
     font-family: "Roboto", sans-serif;
     /*font-family: "Comic Neue", sans-serif;*/
 }
@@ -1125,6 +1126,7 @@ display: none;
 
 .filler_block{
     margin-top: 250px;
+    height: 1000px;
 }
 
 /* .filler_block_left{
