@@ -40,7 +40,7 @@
     padding: 0;
     box-sizing: border-box;
 
-    outline:  1px solid red;
+    /* outline:  1px solid red; */
 }
 
 .category-seafood{
@@ -1061,6 +1061,38 @@ background: linear-gradient(90deg, rgba(217,217,217,0.23) 0%, rgba(217,217,217,0
     flex-wrap: wrap;
 }
 
+.content_headline{
+    margin-left: 0;
+}
+
+.content_area_content div{
+    margin-left: 5px;
+}
+
+.content_area_box_top{
+    margin-top: 5px;
+}
+
+.content_area_content_top_left {
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.content_area_content_middle_right{
+    margin-bottom: 15px;
+    border-radius: 5px;
+
+}
+.content_area_content_bottom_left{
+    margin-bottom: 15px;
+    border-radius: 5px;
+
+}
+
+.button-link{
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
 .footer{
     width: auto;
 }
@@ -1075,13 +1107,26 @@ background: linear-gradient(90deg, rgba(217,217,217,0.23) 0%, rgba(217,217,217,0
 .footer_box{
     grid-template-columns: 50% 50%;
 }
+
+.footer_box_middle{
+    border-left: solid 1px var(--color-light);
+    padding-left: 50%;
+}
 .footer_box_right{
 display: none;
 }
-  }
+.recipe_details{
+    width: auto;
+}
 
-  @media (max-width: 600px) {
-    .recipe_details{
-        width: auto;
-    }
+.instructions_content_left{
+    margin-left: 5px;
+}
+
+.filler_block{
+    margin-top: 250px;
+}
+.filler_container{
+    size-adjust: auto;
+}
   }
