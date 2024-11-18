@@ -1126,7 +1126,15 @@ display: none;
 .filler_block{
     margin-top: 250px;
 }
-.filler_container{
-    size-adjust: auto;
+
+/* .filler_block_left{
+    grid-template-columns: auto / span auto;
 }
+.filler_block_right{
+    grid-template-columns: 7 / span auto;
+} */
+
+/* .filler_container{
+    size-adjust: ;
+} */
   }
