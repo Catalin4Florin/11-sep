@@ -989,8 +989,10 @@ background: linear-gradient(90deg, rgba(217,217,217,0.23) 0%, rgba(217,217,217,0
 .interested {
     background-color: var(--color-dark);
     color: white;
-    padding: 20px;
-    /* text-align: center; */
+    padding-bottom: 20px ;
+    width: var(--width-12col);
+    margin: 0 auto;
+    border-radius: 5px;  
   }
 
   .interested_content {
@@ -1009,6 +1011,7 @@ background: linear-gradient(90deg, rgba(217,217,217,0.23) 0%, rgba(217,217,217,0
     font-size: 16px; 
     font-weight: bold;
     transition: background-color 0.3s;
+    margin: auto 10px auto 10px;
   }
 
   .interested_content a {
